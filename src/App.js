@@ -6,7 +6,7 @@ import { nanoid } from "nanoid";
 
 function App(props) {
 
-  const [tasks, setTasks] = useState("");
+  const [tasks, setTasks] = useState([]);
 
   function addTask(name) {
     console.log("handleSubmit call addTask")
